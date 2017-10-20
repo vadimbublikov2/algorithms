@@ -1,0 +1,16 @@
+a.b.FooBarBaz
+c.d.FooBar
+
+codeborne.WishMaker
+codeborne.MindReader
+
+TelephoneOperator
+FileInputStream
+FileOutputStream
+FtpInputStream
+ScubaArgentineOperator
+       YoureLeavingUsHere
+   YouveComeToThisPoint
+YourEyesAreSpinningInTheirSockets
+
+
