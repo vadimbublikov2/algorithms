@@ -1,9 +1,6 @@
 package ru.bvd.algorithms.camel;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 
 public class Node extends HashMap<Character, Node>  { 
@@ -13,11 +10,13 @@ public class Node extends HashMap<Character, Node>  {
 		return classNameParts;
 	};
 	
-	public String getFirstClassNamePart() {
+	public List<String> getFirstClassNamePart() {
+		List<String> res = new ArrayList<>();
 		for (String s : classNameParts) {
-			return s;
+			res.add(s);
+			break;
 		}
-		return "";
+		return res;
 	}
 	
 	public Set<String> getClassNamesByPattern(String pattern) {
